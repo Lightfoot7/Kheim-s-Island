@@ -2,6 +2,22 @@
 #include <vector>
 using namespace std;
 
+
+int main(){
+    cout << "Welcome to Tic Tac Toe!" << endl;
+    cout << "Player 1 is X and Player 2 is O" << endl;
+    cout << "To make a move, enter a number between 1 and 9 corresponding to the board position:" << endl;
+    cout << "1 | 2 | 3" << endl;
+    cout << "4 | 5 | 6" << endl;
+    cout << "7 | 8 | 9" << endl;
+
+    // Create an instance of the TicTacToe_Game class and start the game
+    //TicTacToe_Game game;
+    //game.Play();
+
+    return 0;
+}
+/*
 class TicTacToe_Game{
 
 private:
@@ -116,4 +132,4 @@ void Play(){
  }
  }
 
-}
+} */
